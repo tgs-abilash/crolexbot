@@ -1,0 +1,523 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background-color: #131b21;
+    margin:0;
+    
+
+}
+.bgn {
+    background-color: black;
+    border: 1px solid #fff;
+}
+.wrapper {
+    position: absolute;
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+.htext {
+color: #ffffff;
+font-weight: inherit;
+line-height: 1.2;
+}
+.ltext {
+    color: #ffff;
+}
+.wh {
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.Hbot {
+    color: #AD91FF !important;
+}
+.Hbot:hover {
+    font-size: 30px;
+    text-shadow: #ffffff;
+}
+.textt {
+    color: #a2a8bd;
+}
+.card {
+    border: 1px solid #ffffff;
+}
+.card:hover {
+     border: 3px solid black;
+}
+.cardds{
+margin-top: 30px !important;
+padding: 60px 50px !important;
+}
+.bgseconde {
+    padding-bottom: 150px;
+    background-color: #131b21;
+
+}
+.ttjoin {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+}
+span {
+    font-weight: 700;
+}
+.footer-social-icons {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+.add_to_discord {
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 600;
+    font-size: 17px !important;
+    line-height: 21px !important;
+    color: #fff;
+    padding: 27px;
+    height: 58px;
+    outline: none;
+}
+.add_to_discord svg {
+    padding-right: 20px;
+    box-sizing: unset;
+}
+.add_to_discord:hover {
+    background-color: rgb(152, 67, 233);
+    text-decoration: none;
+  }
+  
+.commandstitle {
+    color: #ffffff;
+}
+.commandssub {
+    color: gray;
+}
+.searchbox {
+    background-color: #2b2a38;
+    padding: 15px 27px;
+    font-size: 20px;
+    color: #ccc;
+    border: 3px solid #2b2a38;
+    border-radius: 8px;
+    width: 40%;
+}
+.border {
+    width: 65%;
+    height: 2px;
+    background: #fff;
+    margin-left: 17.5%;
+}
+.collapsible {
+    background-color: #202225;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 23px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .collapsible span {
+    font-size: 14px;
+    color: grey;
+}
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  .content {
+    padding: 0 18px;
+    width: 50%;
+    margin-left: 25%;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #2f3136;
+    color: #6a707a;
+    text-align: left;
+    display: none;
+  }
+  .content h4 {
+    margin-top: 12px;
+    font-size: 20px;
+    font-family: 'Cairo';
+  }
+
+  .card{
+    background-color: rgb(255, 251, 251);
+    color: red;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 0px 1rem 1.5rem rgba(0,0,0,0.5);
+  }
+  
+  .card .banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 11rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .card .banner img{
+    background-color: #fff;
+    width: 8rem;
+    height: 8rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+    border-radius: 50%;
+    transform: translateY(50%);
+    transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  }
+  
+  .card .banner img:hover{
+    transform: translateY(50%) scale(1.3);
+  }
+  
+  .card h2.name{
+    text-align: center;
+    padding: 0 2rem 0.5rem;
+    margin: 0;
+  }
+  
+  .card .title{
+    color: #a0a0a0;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 0 2rem 1.2rem;
+  }
+  
+  .card .actions{
+    padding: 0 2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    order: 99;
+  }
+  
+  .card .actions .follow-info{
+    padding: 0 0 1rem;
+    display: flex;
+  }
+  
+  .card .actions .follow-info h2{
+    text-align: center;
+    width: 50%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .card .actions .follow-info h2 a{
+    text-decoration: none;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    transition: background-color 100ms ease-in-out;
+  }
+  
+  .card .actions .follow-info h2 a span{
+    color: #1c9eff;
+    font-weight: bold;
+    transform-origin: bottom;
+    transform: scaleY(1.3);
+    transition: color 100ms ease-in-out;
+  }
+  
+  .card .actions .follow-info h2 a small{
+    color: #afafaf;
+    font-size: 0.85rem;
+    font-weight: normal;
+  }
+  
+  .card .actions .follow-info h2 a:hover{
+    background-color: #f2f2f2;
+  }
+  
+  .card .actions .follow-info h2 a:hover span{
+    color: #007ad6;
+  }
+  
+  .card .actions .follow-btn button{
+    color: inherit;
+    font: inherit;
+    font-weight: bold;
+    background-color: #ffd01a;
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 1.5rem/50%;
+    transition: background-color 100ms ease-in-out, transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  }
+  
+  .card .actions .follow-btn button:hover{
+    background-color: #efb10a;
+    transform: scale(1.1);
+  }
+  
+  .card .actions .follow-btn button:active{
+    background-color: #e8a200;
+    transform: scale(1);
+  }
+
+  .licetitle {
+    color: #ffff;
+    margin: 5px;
+    font-family: monospace;
+  }
+
+  .textlice {
+    box-sizing: border-box;
+    color:  #ffff;
+    margin: 3px;
+    letter-spacing: 1px;
+  }
+
+.mastfoot.mb-auto{
+    padding-bottom: 40px;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #212529;
+    color: white;
+}
+
+
+::-webkit-scrollbar {
+	width: 12.2px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 1000px #38383b; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #202225; 
+	border-radius: 4px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 81, 81); 
+  }
+
+
+#####################*****************************######################################
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+.card-area
+{
+	font-family: Montserrat, sans-serif;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	
+	margin: 100;
+}
+
+h3 {
+	margin: 10px 0;
+}
+
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.card-container {
+	background-color: #00ffff ;
+      
+      background-position: center;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #B3B8CD;
+	padding-top: 30px;
+	position: absolute;
+      left: 05%;
+      
+      height: 100px;
+
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.card-container .pro {
+	color: #00ffff;
+	background-color: #00ffff;
+      background-position: center;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.card-container .round {
+	border: 1px solid #03BFCB;
+      background-position: center;
+	border-radius: 50%;
+	padding: 7px;
+      width: 200px;
+      height: 200px;
+}
+
+button.primary {
+	background-color: #03BFCB;
+      background-position: center;
+	border: 1px solid #03BFCB;
+	border-radius: 3px;
+	color: #231E39;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+}
+
+button.primary.ghost {
+	background-color: transparent;
+      background-position: center;
+	color: #02899C;
+}
+
+.skills {
+      border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	background-color: #1F1A36;
+      background-position: center;
+	text-align: left;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.skills ul li {
+	border: 1px solid #2D2747;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
+
+footer {
+    background-color: #00ffff ;
+    color: #00ffff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #00ffff ;
+    text-decoration: none;
+}
